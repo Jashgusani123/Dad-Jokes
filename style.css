@@ -1,0 +1,48 @@
+body{
+    /* background-color: aqua; */
+    background-size: cover;
+    background-image: url(https://t3.ftcdn.net/jpg/05/71/65/42/360_F_571654288_W1tktzV1RjxUBdz4uWavaElmur7gi6Wd.jpg);
+}
+.body {
+    /* background-color: rgb(247, 185, 27); */
+    /* position: relative; */
+    background-image: url(https://st2.depositphotos.com/1206128/12356/i/450/depositphotos_123566586-stock-illustration-little-sketchy-man-with-tie.jpg);
+    background-size: 500px;
+    background-repeat: no-repeat;
+    position: absolute;
+    left:35%;
+    top: 2%;
+    height: 95%;
+    width: 35%;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+
+#text{
+    height: 151px;
+    width: 22.5%;
+    padding: 10px;
+    position: absolute;
+    top: 100px;
+    left: 41.5%;
+    font-size: x-large;
+    text-align: center;
+    text-wrap: wrap;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* background-color: black; */
+    /* color: white; */
+
+}
+#btn{
+    height: 60px;
+    width: 150px;
+    position: absolute;
+    top: 558px;
+    left: 533px;
+    border-radius: 10px ;
+    background-color: cadetblue;
+    font-size: large;
+    font-weight: 700;
+    box-shadow: 0px 0px 30px black;
+}
